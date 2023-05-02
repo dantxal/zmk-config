@@ -14,6 +14,8 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: splitreus62_left
+    shield: txaldm_left
   - board: seeeduino_xiao_ble
-    shield: splitreus62_right
+    shield: txaldm_right
+#  - board: seeeduino_xiao_ble
+#    shield: settings_reset

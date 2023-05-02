@@ -1,0 +1,19 @@
+/*
+ * Copyright (c) 2023 dantxal
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "txaldm.dtsi"
+
+&kscan0 {
+	col-gpios
+			= <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Column0
+			, <&gpio1 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Column1
+			, <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  //Column2
+			, <&gpio1 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  //Column3
+			, <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  //Column4 NFC PIN 2
+			, <&gpio0 09 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  //Column5 NFC PIN 1
+			;          
+};
+
