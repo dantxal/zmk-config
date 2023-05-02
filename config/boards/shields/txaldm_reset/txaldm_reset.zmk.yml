@@ -1,0 +1,8 @@
+file_format: "1"
+id: txaldm_reset
+name: Txal Reset
+type: shield
+url: https://github.com/dantxal/zmk-config
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
