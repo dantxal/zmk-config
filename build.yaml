@@ -20,7 +20,7 @@ include:
     # settings_reset is necessary for split keyboards to pair
     # https://zmk.dev/docs/troubleshooting#split-keyboard-halves-unable-to-pair
   - board: seeeduino_xiao_ble
-    shield: settings_reset2
+    shield: txaldm_reset
   # ! Default settings_reset not working (need pro micro)
   # - board: seeeduino_xiao_ble
   #   shield: settings_reset
