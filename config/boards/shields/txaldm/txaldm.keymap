@@ -86,7 +86,7 @@
                 &kp CAPS   &kp A     &kp S     &kp D     &kp F          &kp G        &kp H       &kp J       &kp K      &kp L      &kp SEMI    &kp APOS 
                 &kp LSHFT  &kp Z     &kp X     &kp C     &kp V          &kp B        &kp N       &kp M       &kp COMMA  &kp DOT    &kp SLASH   &kp RSHIFT 
                                      &kp LALT  &kp LCMD                                                      &kp ENTER   &kp SPACE 
-                                               &BT_CLR   &kp LEFT       &kp DOWN     &kp RIGHT   &ly 2       &kp N8
+                                               &kp BSPC   &kp LEFT       &kp DOWN     &kp RIGHT   &ly 2       &kp SPACE
                                                          &bootloader    &kp DOWN     &kp RIGHT   &bootloader
                 >;
         };
