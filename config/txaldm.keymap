@@ -18,27 +18,27 @@
 
         default_layer {
             bindings = <
-  &kp ESC  &kp F1      &kp F2       &kp F3      &kp F4    &kp F5      &kp F8      &kp F9      &kp F10     &kp F11    &kp F12  &bt BT_CLR
-&kp GRAVE  &kp N1      &kp N2       &kp N3      &kp N4    &kp N5      &kp N7      &kp N8       &kp N9      &kp N0  &kp MINUS   &kp EQUAL
-  &kp TAB   &kp Q       &kp W        &kp E       &kp R     &kp T       &kp Y       &kp U        &kp I       &kp O      &kp P    &kp BSLH
- &kp CAPS   &kp A       &kp S        &kp D       &kp F     &kp G       &kp H       &kp J        &kp K       &kp L   &kp SEMI    &kp APOS
-&kp LSHFT   &kp Z       &kp X        &kp C       &kp V     &kp B       &kp N       &kp M    &kp COMMA     &kp DOT  &kp SLASH  &kp RSHIFT
-                   &sys_reset  &bootloader                                                &bootloader  &sys_reset
-                                  &kp BSPC    &kp LALT  &kp LCMD   &kp LCTRL   &kp ENTER    &kp SPACE
-                                            &bt BT_CLR  &kp DOWN  &bt BT_PRV  &bt BT_NXT
+  &kp ESC  &kp F1         &kp F2        &kp F3    &kp F4    &kp F5      &kp F8      &kp F9       &kp F10       &kp F11    &kp F12  &bt BT_CLR
+&kp GRAVE  &kp N1         &kp N2        &kp N3    &kp N4    &kp N5      &kp N7      &kp N8        &kp N9        &kp N0  &kp MINUS   &kp EQUAL
+  &kp TAB   &kp Q          &kp W         &kp E     &kp R     &kp T       &kp Y       &kp U         &kp I         &kp O      &kp P    &kp BSLH
+ &kp CAPS   &kp A          &kp S         &kp D     &kp F     &kp G       &kp H       &kp J         &kp K         &kp L   &kp SEMI    &kp APOS
+&kp LSHFT   &kp Z          &kp X         &kp C     &kp V     &kp B       &kp N       &kp M     &kp COMMA       &kp DOT  &kp SLASH  &kp RSHIFT
+                   &kp LS(CARET)  &kp LS(DLLR)                                              &kp LS(RBKT)  &kp LS(RBRC)
+                                     &kp LSHFT  &kp LALT  &kp LCMD   &kp LCTRL   &kp ENTER     &kp SPACE
+                                                   &mo 1  &kp DOWN  &bt BT_PRV  &bt BT_NXT
             >;
         };
 
         system_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans                                  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans  &trans  &trans
+&trans      &trans       &trans      &trans  &trans  &trans    &trans    &trans      &trans       &trans  &trans  &trans
+&trans  &bt BT_PRV   &bt BT_NXT      &trans  &trans  &trans    &trans    &trans      &trans       &trans  &trans  &trans
+&trans  &bt BT_CLR       &trans      &trans  &trans  &trans    &trans    &trans      &trans       &trans  &trans  &trans
+&trans      &trans       &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN      &kp UP    &kp RIGHT  &trans  &trans
+&trans      &trans       &trans      &trans  &trans  &trans    &trans    &trans      &trans       &trans  &trans  &trans
+                    &bootloader  &sys_reset                                      &sys_reset  &bootloader
+                                     &trans  &trans  &trans    &trans    &trans      &trans
+                                             &trans  &trans    &trans    &trans
             >;
         };
 
