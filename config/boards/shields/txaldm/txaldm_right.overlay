@@ -6,6 +6,10 @@
 
 #include "txaldm.dtsi"
 
+&default_transform {
+	col-offset = <6>;
+};
+
 &kscan0 {
 	col-gpios
 			= <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Column0
