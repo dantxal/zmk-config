@@ -17,5 +17,7 @@ include:
     shield: txaldm_left
   - board: seeeduino_xiao_ble
     shield: txaldm_right
-#  - board: seeeduino_xiao_ble
-#    shield: settings_reset
+    # settings_reset is necessary for split keyboards to pair
+    # https://zmk.dev/docs/troubleshooting#split-keyboard-halves-unable-to-pair
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
