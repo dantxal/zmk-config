@@ -1,0 +1,8 @@
+file_format: "1"
+id: settings_reset
+name: SETTINGS RESET
+type: shield
+url: https://github.com/dantxal/zmk-config
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
